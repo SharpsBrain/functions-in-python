@@ -1,0 +1,55 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[6]:
+
+
+def my_function(fname):
+    print(fname + " " + lname)
+    
+my_function("sharps", "brain")
+
+
+# In[9]:
+
+
+def my_function(*kids):
+    print("The youngest child is " + kids[0])
+    
+my_function("Sharps", "brain", "channel")
+
+
+# In[10]:
+
+
+def my_function(child3, child2, child1):
+    print("The youngest child is " +child3)
+
+my_function(child1="Emil",child2="Sharps",child3="linus")
+
+
+# In[12]:
+
+
+def my_function(**kid):
+    print("His last name is " + kid["fname"])
+    
+my_function(fname="Sharps",lname="brain")
+
+
+# In[13]:
+
+
+def  my_function(country="Norway"):
+    print("i am from " + country)
+
+my_function(country="Swedon")
+my_function(country="Pakistan")
+my_function(country="India")    
+
+
+# In[ ]:
+
+
+
+
